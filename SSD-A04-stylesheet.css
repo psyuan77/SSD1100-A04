@@ -6,7 +6,6 @@
 }
 body{
     display: flex;
-    /* display: block; */
     flex-direction: column;
     justify-content:space-between;
     min-height: 100vh;
@@ -14,6 +13,8 @@ body{
 main{
     flex-grow: 1;
 }
+
+/* setting image's size and shape */
 img{
     height: 150px;
     width: 150px;
@@ -23,6 +24,7 @@ img{
 footer{
     text-align: right;
 }
+/* setting header as a flexbox */
 header{
     justify-content: space-between;
     height: auto;
@@ -34,6 +36,7 @@ header{
     flex-grow: 1;
 }
 
+/* setting a container for customer's info and issue date details */
 .container{   
     display: flex;    
 }
@@ -51,6 +54,8 @@ article > div{
     padding: 0px;
     border: solid white
 }
+
+/* table section about billing product info */
 table{ 
     margin-top: 30px;
     width: 100%;
@@ -62,12 +67,14 @@ table{
 .right{
     text-align: right;
 }
-.Summary{
+
+/* style the payment type and total amount */
+.summary{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
 }
-.Total{
+.total{
     text-align: center;
 }
