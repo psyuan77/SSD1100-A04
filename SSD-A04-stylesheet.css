@@ -48,18 +48,25 @@ article > div{
     margin-top: 0px;
     flex-grow: 4;
     text-align: left;
+    padding: 0px;
     border: solid white
-
 }
 table{ 
+    margin-top: 30px;
     width: 100%;
     text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
 }
 .Summary{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .Total{
     text-align: center;
