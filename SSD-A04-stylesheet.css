@@ -5,7 +5,14 @@
   box-sizing: border-box;
 }
 body{
-    margin: 10px;
+    display: flex;
+    /* display: block; */
+    flex-direction: column;
+    justify-content:space-between;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
 }
 img{
     height: 150px;
@@ -23,8 +30,8 @@ header{
     flex-wrap: wrap;
     display: flex;
 }
-.info{
-    display: inline-flex;
+.company_info{
+    flex-grow: 1;
 }
 
 .container{   
@@ -50,6 +57,7 @@ table{
 }
 .Summary{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-top: 20px;
 }
