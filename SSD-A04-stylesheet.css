@@ -4,3 +4,55 @@
 *::after {
   box-sizing: border-box;
 }
+body{
+    margin: 10px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+footer{
+    text-align: right;
+}
+header{
+    justify-content: space-between;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.info{
+    display: inline-flex;
+}
+
+.container{   
+    display: flex;    
+}
+article > div{
+    margin-top: 20px;
+    height: fit-content;
+    padding: 20px;
+    border: solid black;
+    text-align: center;
+}
+.customer_info{
+    margin-top: 0px;
+    flex-grow: 4;
+    text-align: left;
+    border: solid white
+
+}
+table{ 
+    width: 100%;
+    text-align: center;
+}
+.Summary{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Total{
+    text-align: center;
+}
