@@ -3,16 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet for A04" href="SSD-A04-stylesheet.css">
     <title>Siyuan Peng - A04</title>
 </head>
 <body>
     <header>
-        
+        <!-- Company logo and info -->
+        <div class="info">
+            <img src="Image/logo-A04.jpeg" alt="Company logo-A04">
+            <p>
+                Siyuan's bakery LTD <br> 123 Bake Street <br> Suit 9 <br>
+                Richmond BC <br> V1C 7N7 <br> sbakery@hotmail.com
+            </p>
+        </div>
+
+        <!-- Invoice number -->
+        <div>
+            <p>Invoice 0007</p>
+        </div>
     </header>
     <main>
+        <!-- client info and order date section -->
+        <article class="container">
+            <!-- Client contact info -->
+            <div class="customer_info">
+                <p>
+                Bill to:<br> Caroline Peng <br> Pisces Cafe <br>
+                456 No.4 Road <br> Suit 3 <br> Richmond BC<br>
+                V1A 2P2 <br> pisces_cafe@gmail.com
+                </p>
+            </div>
 
+        <!-- Issue Date, Amount, and Due Date in a contianer-->
+            <div>
+                <h3>ISSUE DATE</h3>
+                <P>2024/09/01</P>
+            </div>
+            <div>
+                <h3>PLEASE PAY</h3>
+                <P>CAD 2500.00</P>
+            </div>
+            <div>
+                <h3>DUE DATE</h3>
+                <P>2024/10/01</P>
+            </div>
+        </article>
+        
+
+        <!-- billing details -->
+        <section>
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>Buegget</td>
+                    <td>50</td>
+                    <td>10.00</td>
+                    <td>500.00</td>
+                </tr>
+                <tr>
+                    <td>Cheese Cake</td>
+                    <td>10</td>
+                    <td>25.00</td>
+                    <td>250.00</td>
+                </tr>
+                <tr>
+                    <td>Brownie</td>
+                    <td>15</td>
+                    <td>16.00</td>
+                    <td>240.00</td>
+                </tr>
+            </table>
+        </section>
+        <!-- Payment summary -->
+        <section class="Summary">
+            <div>
+                <p>
+                Please pay the bill via Interac E-transfer to <br>
+                sbakery@hotmail.com
+                </p>
+            </div>
+            <div class="Total">
+                <h3>Total Payment</h3>
+                <p>CAD 990.00</p>
+            </div>
+        </section>       
     </main>
-    <footer></footer>
+    <footer>&copy; 2024 Siyuan Peng</footer>
     
 </body>
 </html>
