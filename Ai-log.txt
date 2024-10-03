@@ -1,0 +1,7 @@
+For the flex:
+I used Chatgpt to search some properties, such as: difference between justify-content and justify-items.
+I also used W3school to learn more knowledge of flexbox.
+
+For Grid:
+I use Chatgpt to see the difference between some properties, such as: grid-template-columns(rows) and grid-columns(rows).
+I also use W3school to learn more knowledge of grid.
