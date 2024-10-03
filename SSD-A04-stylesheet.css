@@ -4,15 +4,19 @@
 *::after {
   box-sizing: border-box;
 }
+
 body{
-    display: flex;
-    /* display: block; */
-    flex-direction: column;
-    justify-content:space-between;
-    min-height: 100vh;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 0.1fr;
+    grid-template-columns: 100%;
 }
-main{
-    flex-grow: 1;
+
+/* Header part style */
+header{
+    display: grid;
+    grid-template-columns: 10rem 1fr 1fr;
+    padding: 2px;
 }
 img{
     height: 150px;
@@ -20,22 +24,18 @@ img{
     margin-right: 5px;
     border-radius: 50%;
 }
-footer{
+.invoice{
     text-align: right;
 }
-header{
-    justify-content: space-between;
-    height: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
-}
-.company_info{
-    flex-grow: 1;
-}
 
-.container{   
-    display: flex;    
+/* Main part style */
+main{
+    display: grid;
+}
+.container{
+    margin-right: 10px;   
+    display: grid;  
+    grid-template-columns: 5fr 1fr 1fr 1fr;  
 }
 article > div{
     margin-top: 20px;
@@ -45,16 +45,19 @@ article > div{
     text-align: center;
 }
 .customer_info{
-    margin-top: 0px;
-    flex-grow: 4;
-    text-align: left;
     padding: 0px;
-    border: solid white
+    margin: 0px;
+    text-align: left;
+    border: 1px solid white;
 }
 table{ 
     margin-top: 30px;
     width: 100%;
     text-align: center;
+}
+tr{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
 }
 .left{
     text-align: left;
@@ -63,11 +66,14 @@ table{
     text-align: right;
 }
 .Summary{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 30px;
 }
 .Total{
-    text-align: center;
+    text-align: right;
+}
+footer{
+    margin-top: 80px;
+    text-align: right;
 }
